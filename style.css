@@ -1,0 +1,72 @@
+/* Fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+  }
+  
+  h1, 
+  h2,
+  h3 { 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Layout */
+  section {
+    padding: 100px 0;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 14px 36px;
+    font-size: 14px;  
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;  
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }  
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #0085ff;
+  }
+  
+  /* Tables */
+  .table {  
+    width: 100%;
+    margin-bottom: 30px;  
+    box-shadow: 0 1px 10px rgba(0,0,0,.1); 
+  }
+  
+  .table thead {
+    background-color: #0085ff; 
+    color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dee2e6; 
+  }
+  
+  /* Navigation */ 
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    padding: 20px;
+  }
